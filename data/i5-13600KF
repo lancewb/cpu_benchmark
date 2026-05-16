@@ -1,0 +1,18 @@
+ID           Dimension                     Workers  Score         Unit              Duration
+batch        multi-core parallel           20       7963.84       Mrows/s           15.02s
+branch       branch prediction and OoO     1        1334.80       Mbranches/s       15.00s
+cache        cache subsystem               1        30.11         GiB/s             15.00s
+coherency    cache subsystem               20       80.43         Mops/s            15.00s
+compile      multi-core parallel           20       468166.70     files/s           15.01s
+compress     single-core integer           1        446.09        MiB/s             15.00s
+dependency   branch prediction and OoO     1        2243.93       Mops/s            15.00s
+efficiency   power efficiency              20       146866443.77  score/cpu-second  15.04s
+fft          single-core floating point    1        83133.31      transforms/s      15.00s
+float-sci    single-core floating point    1        98.55         Mops/s            15.00s
+hash         single-core integer           1        686.13        MiB/s             15.00s
+int-crypto   single-core integer           1        25648.02      MiB/s             15.00s
+mem-latency  memory bandwidth and latency  1        330.68        Msteps/s          15.00s
+mem-stream   memory bandwidth and latency  20       615.24        GiB/s             15.04s
+render       multi-core parallel           20       5223.99       Mpixels/s         15.02s
+simd         SIMD/vector instruction       1        7.44          GFLOP/s           15.00s
+vec3d        single-core floating point    1        10137.76      Mops/s            15.00s
